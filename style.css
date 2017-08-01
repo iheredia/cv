@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #333333;
+  background: #f0f0fa;
 }
 
 a {
@@ -10,8 +11,13 @@ a {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto;
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 114px -53px rgba(0,0,0,0.75);
   padding: 50px;
+  background: white;
 }
 
 .main {
@@ -21,7 +27,8 @@ a {
 img {
   position: absolute;
   height: 100%;
-  left: 250px;
+  right: 0px;
+  top: 0px;
   border-radius: 2px;
 }
 
@@ -29,6 +36,7 @@ h1 {
   font-weight: 500;
   font-size: 30px;
   margin: 0 0 10px 0;
+  font-size: 100px;
 }
 
 .role {
@@ -92,4 +100,9 @@ h2 {
   margin: 0 0 5px 0;
   color: #737373;
   font-size: 13px;
+}
+
+
+@media (min-width: 900) {
+  /* TODO */
 }
