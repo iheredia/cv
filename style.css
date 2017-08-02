@@ -4,7 +4,7 @@ body {
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  background: #f0f0fa;
+  background: #f9fdf0;
 }
 
 body.desktop {
@@ -99,16 +99,17 @@ img {
 hr {
   margin: 50px 0 30px 0;
   border-color: transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.3);
+  border-bottom: solid 1px #222;
 }
 
 hr.section-hr,
 .desktop hr.section-hr {
   margin: 10px 0;
+  border-bottom: solid 1px #aaa;
 }
 
 h2 {
-  font-size: 120%
+  font-size: 120%;
   font-weight: 500;
 }
 
