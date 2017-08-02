@@ -1,10 +1,14 @@
 /* ######## GLOBALES ######## */
 
 body {
-  font-size: 16px;
+  font-size: 30px;
   font-family: 'Roboto', sans-serif;
   color: #333333;
   background: #f0f0fa;
+}
+
+body.desktop {
+  font-size: 16px;
 }
 
 a {
@@ -16,14 +20,23 @@ a {
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.desktop .container {
   margin: 50px auto;
+
 }
 
 .box-shadow {
   box-shadow: 10px 10px 114px -53px rgba(0,0,0,0.75);
-  margin: 0 50px;
+  margin: 0;
   padding: 50px;
   background: white;
+}
+
+.desktop .box-shadow {
+  margin: 0 50px;
 }
 
 /* ######## MAIN ######## */
@@ -47,11 +60,11 @@ img {
 }
 
 @media (min-width:641px) {
-  h1 {
+  .desktop h1 {
     margin-right: 150px;
     font-size: 400%;
   }
-  img {
+  .desktop img {
     display: inline-block;
     position: absolute;
     height: 100%;
@@ -62,7 +75,7 @@ img {
 }
 
 @media (min-width: 961px) {
-  h1 {
+  .desktop h1 {
     font-size: 520%;
   }
 }
@@ -83,16 +96,16 @@ h2 {
 }
 
 @media (min-width: 961px) {
-  hr {
+  .desktop hr {
     margin: 30px 0 10px 0;
   }
 
-  .section {
+  .desktop .section {
     position: relative;
     padding-left: 250px;
   }
 
-  h2 {
+  .desktop h2 {
     font-size: 80%;
     width: 220px;
     position: absolute;
