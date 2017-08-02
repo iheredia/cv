@@ -16,6 +16,14 @@ a {
   color: #0057ff;
 }
 
+a.quoted-link {
+  font-style: italic;
+}
+
+ul {
+  margin: 0;
+}
+
 /* ######## CONTAINER ######## */
 
 .container {
@@ -47,12 +55,16 @@ a {
 
 h1 {
   font-weight: 500;
-  margin: 0 0 10px 0;
+  margin: 0;
 }
 
 .role {
   font-size: 125%;
   margin: 0;
+}
+
+.location {
+  margin: 5px 0;
 }
 
 img {
@@ -88,6 +100,11 @@ hr {
   margin: 50px 0 30px 0;
   border-color: transparent;
   border-bottom-color: rgba(0, 0, 0, 0.3);
+}
+
+hr.section-hr,
+.desktop hr.section-hr {
+  margin: 10px 0;
 }
 
 h2 {
