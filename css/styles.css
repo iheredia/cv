@@ -128,12 +128,16 @@ p {
     text-align: center;
   }
   h5 + hr {
-    border-top: 1.2px solid;
-    color: #e6e6e6;
+    border: none;
+    border-top: 1.2px solid #e6e6e6;
   }
 
   p + hr {
-    border-top: 1.2px solid;
-    color: #e6e6e6;
+    border: none;
+    border-top: 1.2px solid #e6e6e6;
   }
+}
+
+.print-visible {
+  display: none;
 }

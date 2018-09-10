@@ -1,0 +1,17 @@
+@page {
+    size: A4;
+}
+
+.imagen {
+    width: 150px;
+}
+
+body a:after,
+body a:visited:after {
+    content: none !important;
+}
+
+.print-visible {
+    display: inline-block;
+    font-size: 90%;
+}
