@@ -1,0 +1,205 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "open-sans", "helvetica", sans-serif;
+  font-weight: 300;
+  color: #333;
+  background: #fafafa;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #c09438;
+}
+
+a:hover {
+  color: #a17822;
+}
+
+a:focus {
+  color: #c09438;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: "roboto", "open-sas", sans-serif;
+  font-weight: 400;
+  font-size: inherit;
+  margin: 0 0 10px 0;
+}
+
+header, section {
+  padding: 20px 0;
+  border-bottom: solid 1px #777;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+header #role {
+  font-size: 30px;
+}
+
+header #location {
+  font-size: 18px;
+}
+
+header img {
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  max-width: 160px;
+  display: block;
+}
+
+header a {
+  display: block;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+section h3 {
+  font-weight: bold;
+}
+
+section p.final-paragraph {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+section p.final-paragraph:last-child {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1000px) {
+  header, section {
+    padding-left: 25%;
+    position: relative;
+  }
+
+  header img, section h2 {
+    position: absolute;
+    left: 0;
+    top: 20px;
+  }
+
+  header {
+    text-align: left;
+  }
+
+  header img {
+    height: 80%;
+    max-width: none;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  header a {
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+}
+
+
+/*
+
+
+hr {
+  border-top: 1px solid;
+  color: ;
+}
+
+.exp-laboral {
+  margin-bottom: 0px;
+}
+
+.encabezado {
+  font-family: "roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h5 {
+  font-family: "open-sans", sans-serif;
+  font-weight: 400;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #767676;
+}
+
+p {
+  font-family: "open-sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.sobre-mi {
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  .imagen {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .redes-sociales {
+    text-align: center;
+  }
+  h5 + hr {
+    border: none;
+    border-top: 1.2px solid #e6e6e6;
+  }
+
+  p + hr {
+    border: none;
+    border-top: 1.2px solid #e6e6e6;
+  }
+}
+
+.print-visible {
+  display: none;
+}
+
+*/
