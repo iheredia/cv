@@ -2,8 +2,8 @@
     size: A4;
 }
 
-.imagen {
-    width: 150px;
+header img {
+    float: left;
 }
 
 body a:after,

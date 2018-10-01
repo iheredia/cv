@@ -79,11 +79,11 @@ header a {
 
 section h2 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 section h3 {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 section p.final-paragraph {
@@ -98,9 +98,9 @@ section p.final-paragraph:last-child {
   padding: 0;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px), print {
   header, section {
-    padding-left: 25%;
+    padding-left: 28%;
     position: relative;
   }
 
@@ -126,80 +126,3 @@ section p.final-paragraph:last-child {
     margin: 0 20px 0 0;
   }
 }
-
-
-/*
-
-
-hr {
-  border-top: 1px solid;
-  color: ;
-}
-
-.exp-laboral {
-  margin-bottom: 0px;
-}
-
-.encabezado {
-  font-family: "roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-h5 {
-  font-family: "open-sans", sans-serif;
-  font-weight: 400;
-  margin-top: 5px;
-  font-size: 15px;
-  color: #767676;
-}
-
-p {
-  font-family: "open-sans", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-}
-
-.sobre-mi {
-  line-height: 1.6;
-}
-
-@media (max-width: 991px) {
-  .imagen {
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  h2 {
-    text-align: center;
-  }
-
-  h3 {
-    text-align: center;
-  }
-
-  .redes-sociales {
-    text-align: center;
-  }
-  h5 + hr {
-    border: none;
-    border-top: 1.2px solid #e6e6e6;
-  }
-
-  p + hr {
-    border: none;
-    border-top: 1.2px solid #e6e6e6;
-  }
-}
-
-.print-visible {
-  display: none;
-}
-
-*/
