@@ -5,23 +5,17 @@ section {
 
 section h2 {
     font-size: 18px;
-    font-weight: 500;
     margin-bottom: 20px;
 }
+
 section h3 {
-    font-weight: 500;
+    font-size: 17px;
 }
 
-section p.final-paragraph {
+section article:not(:last-child) {
     border-bottom: solid 1px #ccc;
     padding-bottom: 20px;
     margin-bottom: 20px;
-}
-
-section p.final-paragraph:last-child {
-    border-bottom: none;
-    margin: 0;
-    padding: 0;
 }
 
 @media (min-width: 768px), print {
