@@ -19,7 +19,6 @@ main {
 
 a, a:hover, a:focus {
     text-decoration: none;
-    outline: none;
     color: #c09438;
 }
 
@@ -29,15 +28,21 @@ a:hover {
 
 a:focus {
     color: #c09438;
+    outline-color: #c09438;
+}
+
+::selection {
+    background-color: #c09438;
+    color: white;
 }
 
 p, h1, h2, h3, h4 {
     margin: 0 0 10px 0;
+    font-size: inherit;
 }
 
 h1, h2, h3 {
     font-weight: 400;
-    font-size: inherit;
 }
 
 h4 {
