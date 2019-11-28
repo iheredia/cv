@@ -1,3 +1,8 @@
+section {
+    padding: 20px 0;
+    border-bottom: solid 1px #777;
+}
+
 section h2 {
     font-size: 18px;
     font-weight: 500;
@@ -17,4 +22,17 @@ section p.final-paragraph:last-child {
     border-bottom: none;
     margin: 0;
     padding: 0;
+}
+
+@media (min-width: 768px), print {
+    section {
+        padding-left: 28%;
+        position: relative;
+    }
+
+    section h2 {
+        position: absolute;
+        left: 0;
+        top: 20px;
+    }
 }

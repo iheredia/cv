@@ -1,9 +1,6 @@
-header, section {
+header {
     padding: 20px 0;
     border-bottom: solid 1px #777;
-}
-
-header {
     text-align: center;
 }
 
@@ -12,11 +9,11 @@ header h1 {
     font-weight: 500;
 }
 
-header #role {
-    font-size: 30px;
+header h2 {
+    font-size: 28px;
 }
 
-header #location {
+header h3 {
     font-size: 18px;
 }
 
@@ -31,4 +28,24 @@ header a {
     display: block;
     text-align: center;
     margin: 0 0 10px 0;
+}
+
+@media (min-width: 768px), print {
+    header {
+        padding-left: 28%;
+        position: relative;
+        text-align: left;
+    }
+
+    header img {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header a {
+        display: inline-block;
+        margin: 0 20px 0 0;
+    }
 }
