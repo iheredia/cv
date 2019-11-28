@@ -1,0 +1,20 @@
+section h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+section h3 {
+    font-weight: 500;
+}
+
+section p.final-paragraph {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+section p.final-paragraph:last-child {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
